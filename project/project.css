@@ -1,0 +1,204 @@
+.body {
+    background-color: khaki;
+}
+.navbar {
+    background-color:#b8b17d;
+    opacity:0.9;
+}
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium';
+    font-size:90px;
+    color: rgb(177, 136, 87);
+    text-shadow: 4px 3px 3px rgb(53, 49, 49), 10px 9px 3px #ec912907;
+}
+.nav-link {
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:bisque;
+    text-shadow: 3px 2px 2px rgb(34, 32, 32)
+
+}
+.pb-2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgrey;
+    text-align: justify;
+}
+.projek {
+    background-color:#f5f5dc;
+}
+.cari {
+    background-color: #ab9b85;
+}
+.click {
+    background-color: #ab9b85;
+} 
+.jumbotron {
+    background-color:beige ;
+    padding-top: 3 rem;
+}
+.display-4 {
+    color: #b8b17d;
+    text-shadow: 4px 3px 2px rgb(7, 7, 7), 10px 9px 3px #38373607;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.row{
+    display: -webkit- flex;
+    display: -moz- flex;
+    display: -ms- flex;
+    display: -o- flex;
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card {
+    padding: 10px;
+    height:fit-content;
+}
+.card.side {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    text-align: center;
+    transition: 2s;
+    font-weight: bold;
+}
+.card.side:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 10px 3px  #6c7679, inset 10px 10px 0px 1px rgb(214, 182, 94); 
+}
+.card.middle {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    text-align: center;
+    transition: 2s;
+    font-weight: bold;
+}
+.card.middle:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 10px 3px  #6c7679, inset 10px 10px 0px 1px rgb(214, 182, 94); 
+}
+@media (max-width:1000px) {
+    .row{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.row1{
+    display: -webkit- flex;
+    display: -moz- flex;
+    display: -ms- flex;
+    display: -o- flex;
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card.pinggir {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    text-align: center;
+    transition: 2s;
+    font-weight: bold;
+}
+.card.pinggir:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 10px 3px  #6c7679, inset 10px 10px 0px 1px rgb(214, 182, 94); 
+}
+.card.tengah {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    text-align: center;
+    transition: 2s;
+    font-weight: bold;
+}
+.card.tengah:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 10px 3px  #6c7679, inset 10px 10px 0px 1px rgb(214, 182, 94); 
+}
+@media (max-width:1000px) {
+    .row{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.card {
+    background-color:beige;
+    background-clip: border-box;
+   
+}
+.categori {
+    color: #b8b17d;
+    text-shadow: 4px 3px 2px rgb(7, 7, 7), 10px 9px 3px #38373607;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+}  
+.display-5 {
+    background-color:beige;
+}
+.card.satu {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    background-color:cornsilk;
+    font-size:small;
+    transition: 1.5s;
+    font-weight: bold;
+}
+.card.satu:hover{
+    margin-bottom:500px; 
+    transform: scale(-1), rotate(45deg); 
+    box-shadow: 10px 10px 20px  #b4a074;
+}
+.card.dua {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    background-color:cornsilk;
+    font-size:small;
+    transition: 1.5s;
+    font-weight: bold;
+}
+.card.dua:hover {
+    margin-bottom:500px; 
+    transform: scale(-1), rotate(45deg); 
+    box-shadow: 10px 10px 20px  #b4a074;
+}
+.card.tiga {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    background-color:cornsilk;
+    font-size:small;
+    transition: 1.5s;
+    font-weight: bold;
+}
+.card.tiga:hover {
+    margin-bottom:500px; 
+    transform: scale(-1), rotate(45deg); 
+    box-shadow: 10px 10px 20px  #b4a074;
+}
+@media (max-width:1000px) {
+    .row{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,24 @@
+.navbar {
+    background-color:#b8b17d;
+    opacity:0.9;
+}
+
+.carousel-item > img {
+    top: 0;
+    left: 0;
+    min-width:100%;
+    height: 40rem;
+}
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium';
+    font-size:90px;
+    color: rgb(177, 136, 87);
+    text-shadow: 4px 3px 3px rgb(53, 49, 49), 10px 9px 3px #ec912907;
+}
+.nav-link {
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:bisque;
+    text-shadow: 3px 2px 2px rgb(34, 32, 32)
+
+}
